@@ -4,7 +4,7 @@
 const firstUser = {};
 const secondUser = {};
 
-// 1. first user
+// 1. FIRST USER
 favoriteColorFirstUser = new Set(["Yellow", "Pink", "White", "Purple"]);
 educationFirstUser = [
   { name: "SD 01", city: "Jakarta", graduate: 2016 },
@@ -34,7 +34,7 @@ firstUser.isHavePet = true;
 firstUser.education = educationFirstUser;
 firstUser.favoriteRestaurant = favoriteRestaurantFirstUser;
 
-// 2. second user
+// 2. SECOND USER
 favoriteColorSecondUser = new Set(["Blue", "Black", "Grey"]);
 educationSecondUser = [
   { name: "SD 02", city: "Jakarta", graduate: 2010 },
