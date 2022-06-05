@@ -29,10 +29,10 @@ firstUser.name = "Monica";
 firstUser.gender = "Female";
 firstUser.age = 17;
 firstUser.email = "monica@dingdong.com";
-firstUser.favoriteColor = favoriteColorFirstUser;
+firstUser.favoriteColor = Array.from(favoriteColorFirstUser);
 firstUser.isHavePet = true;
 firstUser.education = educationFirstUser;
-firstUser.favoriteRestaurant = favoriteRestaurantFirstUser;
+firstUser.favoriteRestaurant = Array.from(favoriteRestaurantFirstUser);
 
 // 2. SECOND USER
 favoriteColorSecondUser = new Set(["Blue", "Black", "Grey"]);
@@ -58,10 +58,10 @@ secondUser.name = "Wendy";
 secondUser.gender = "Male";
 secondUser.age = 23;
 secondUser.email = "wendy@dingdong.com";
-secondUser.favoriteColor = favoriteColorSecondUser;
+secondUser.favoriteColor = Array.from(favoriteColorSecondUser);
 secondUser.isHavePet = false;
 secondUser.education = educationSecondUser;
-secondUser.favoriteRestaurant = favoriteRestaurantSecondUser;
+secondUser.favoriteRestaurant = Array.from(favoriteRestaurantSecondUser);
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
@@ -70,8 +70,8 @@ users.push(secondUser);
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
-  console.log(users.length || users.size);
-  console.log(users);
+  // console.log(users.length || users.size);
+  // console.log(users);
 }
 
 main();
